@@ -10,7 +10,8 @@ Na tabela turma é o: id_turma, tipo int.
 Na tabela aluno é o: id_aluno, tipo int.
 
 ⇨ Como essas entidades estão relacionadas? 
-O curso tem turmas e as turmas têm alunos. 
+turma 1,1 curso e curso 0,n para turma.
+alunos 1,1 turma e turma 0,n para alunos.
 
 Utilizando o shell do app XAMPP:
 Criar o  banco de dados com o comando: 
